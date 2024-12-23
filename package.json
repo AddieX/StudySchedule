@@ -7,6 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Addie",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AddieX/StudySchedule.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AddieX/StudySchedule/issues"
+  },
+  "homepage": "https://github.com/AddieX/StudySchedule#readme"
 }
