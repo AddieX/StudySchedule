@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  justify-content: baseline;
+}
+
+.header {
+  border: solid thin red;
+  border-top-style: unset;
+  border-right-style: unset;
+  display: inline-block;
+}
+.header,
+h1 {
+  padding: 25px;
+  font-style: italic;
+  font-family: "Roboto Mono";
+  margin-top: 100px;
+  margin-left: 3rem;
+}
+
+.note {
+  font-weight: lighter;
+  padding: 15px;
+  font-size: larger;
+  color: springgreen;
+  margin-top: 2rem;
+  margin-left: 3.2rem;
+  padding-left: 55px;
+}
+.box {
+  width: 500px;
+  height: 500px;
+  border: 1px solid orange;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-top: 120px;
+  float: right;
+}
+.schedule-imp {
+  font-weight: bold;
+  color: springgreen;
+  margin-top: 50px;
+  margin-left: 2.5rem;
+  padding-left: 30px;
+}
+.schedule-imp-list {
+  padding-top: 20px;
+  margin-left: 7.5rem;
+}
+li {
+  color: orange;
+  padding: 8px;
+}
+table {
+  border: thin solid black;
+  width: 500px;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  border: solid 1px black;
+  background-color: grey;
+  padding: 20px;
+}
+td {
+  text-align: center;
+  background-color: black;
+}
