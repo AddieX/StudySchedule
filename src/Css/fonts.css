@@ -1,10 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
 
-
+.header,
 h1 {
-  font-family: "Roboto Mono
+  font-family: "Roboto Mono";
+  font-style: italic;
 }
 
 body {
   font-family: "Roboto Mono";
+}
+
+p {
+  font-family: "Roboto Mono";
+}
+
+.box-text {
+  font-family: "Karla";
+}
+
+.note {
+  font-weight: lighter;
+  font-size: larger;
 }
