@@ -12,7 +12,7 @@ body {
 }
 
 .header {
-  border: solid thin red;
+  border: solid thin orange;
   border-top-style: unset;
   border-right-style: unset;
   display: inline-block;
