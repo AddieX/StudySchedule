@@ -16,10 +16,26 @@ p {
 }
 
 .box-text {
-  font-family: "Karla";
+  font-size: 20px;
+  font-family: "Roboto Mono";
 }
 
-.note {
-  font-weight: lighter;
-  font-size: larger;
+table {
+  font-family: "Roboto Mono";
+}
+
+.contactlink {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Roboto Mono";
+}
+.schedule-imp {
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+li {
+  font-size: 20px;
+  color: white;
 }

@@ -12,12 +12,13 @@ body {
 }
 
 .header {
-  border: solid 4px orange;
-  border-width: 7px;
+  border: solid orange;
+  border-width: 3px;
   border-top-style: unset;
   border-right-style: unset;
   display: inline-block;
 }
+
 .header,
 h1 {
   padding: 25px;
@@ -25,58 +26,73 @@ h1 {
   margin-left: 3rem;
 }
 
-.note {
-  font-weight: lighter;
-  font-size: larger;
-  padding: 15px;
-  color: springgreen;
-  margin-top: 2rem;
-  margin-left: 3.2rem;
-  padding-left: 55px;
-}
 .box {
   width: 500px;
-  height: 500px;
+  height: 450px;
   border: 1px solid orange;
   margin-right: 20px;
   border-radius: 10px;
   margin-top: 120px;
   float: right;
 }
+
 .box-text {
   text-align: center;
-  margin-top: 25%;
+  margin-top: -1%;
   padding: 45px;
 }
+
+.contact {
+  background-color: orange;
+  padding: 20px;
+  border-color: black;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.contact:hover {
+  background-color: tomato;
+}
+
+.contactlink {
+  text-decoration: none;
+  color: black;
+}
+
 .schedule-imp {
-  font-weight: bold;
-  color: springgreen;
+  color: orange;
   margin-top: 50px;
   margin-left: 2.5rem;
+  padding-top: 50px;
   padding-left: 30px;
 }
+
 .schedule-imp-list {
   padding-top: 20px;
   margin-left: 7.5rem;
 }
+
 li {
-  color: orange;
   padding: 8px;
 }
+
 table {
-  border: thin solid black;
-  width: 500px;
-  padding-top: 100px;
+  border-radius: 10px;
+  width: 700px;
+  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
 }
 
 th {
-  border: solid 1px black;
-  background-color: grey;
+  border-radius: 10px;
+  background-color: tomato;
   padding: 20px;
 }
+
 td {
+  border-radius: 10px;
+  padding: 4px;
   text-align: center;
-  background-color: black;
+  background-color: chocolate;
 }
