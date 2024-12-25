@@ -38,3 +38,9 @@ li {
   font-size: 20px;
   color: white;
 }
+
+.ul-note {
+  font-family: "Roboto Mono";
+  font-style: italic;
+  font-size: larger;
+}
