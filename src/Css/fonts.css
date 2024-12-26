@@ -9,6 +9,7 @@ h1 {
 
 body {
   font-family: "Roboto Mono";
+  font-weight: normal;
 }
 
 p {
@@ -30,8 +31,8 @@ table {
   font-family: "Roboto Mono";
 }
 .schedule-imp {
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 li {
@@ -39,8 +40,4 @@ li {
   color: white;
 }
 
-.ul-note {
-  font-family: "Roboto Mono";
-  font-style: italic;
-  font-size: larger;
-}
+
